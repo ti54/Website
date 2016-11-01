@@ -1,6 +1,5 @@
 
 
-
 body {
   margin:0;
 }
@@ -61,7 +60,7 @@ table {
   height: 300px;
   width: 100%;
   left: 0px;
-  top: -27px;
+  top: -28px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -195,7 +194,7 @@ line-height: 200px;
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-50px;
+  bottom:-335px;
   left: 0px;
 
   line-height: 50px;
