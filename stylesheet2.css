@@ -142,7 +142,7 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:1950px;
+  height:1980px;
   width: 100%;
   top:-50px;
   vertical-align:middle;
@@ -206,9 +206,9 @@ h1.Otsikko {
 
 line-height: 20px;
 }
-.space3{
+#space3{
 
-line-height: 20px;
+padding-top: 23px;
 }
 #space2{
   line-height: 24px;
@@ -218,7 +218,7 @@ br {
 }
 #date {
 
-  padding-top: 7px;
+  padding-top: 23px;
 }
 #Date {
 
