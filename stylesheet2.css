@@ -142,17 +142,20 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:1980px;
-  width: 100%;
+  height:1900px;
+  width: 96%;
   top:-50px;
-  vertical-align:middle;
+/*  vertical-align:middle;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
   background-color:white;
-  text-align: center;
+  color: black;
+  text-align: left;
   position: relative;
-
-
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 50px;
+  padding-top: 45px;
+  font-size:18px;
 }
 
 
@@ -197,7 +200,7 @@ h1.Otsikko {
 
   font-size: 40px;
 }
-#WT {
+.WT {
 
   font-weight: normal;
   font-size: 19.5px;
