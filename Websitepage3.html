@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+  <link type="text/css" rel="stylesheet" href="stylesheet3.css"/>
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oxygen|Roboto|Source+Sans+Pro" rel="stylesheet">
   <title>Timo's website</title>
 </head>
@@ -17,7 +17,7 @@
           <tbody class="Tabels">
             <tr>
               <td>Contact me:</td>
-              <td><a class="Icon" href="mailto:timo.uimonendev@gmail.com" ><img src="Logo.png" class="Contact"</td></a>
+              <td><a class="Icon" href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x74;&#105;&#x6d;&#x6f;&#x2e;&#x75;&#x69;&#x6d;&#111;&#x6e;&#101;&#x6e;&#100;&#101;&#118;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;" ><img src="Logo.png" class="Contact"</td></a>
             </tr>
           </tbody>
         </table>
@@ -26,7 +26,7 @@
   </div>
   <!-- Header -->
   <div class="Header">
-    <span class="Main"><a class="Icon" href="index.hmtl"><h1>Timo Uimonen</h1></a></span>
+      <span class="Main"><h1>Timo Uimonen</h1></span>
 
   </div>
   <div id="Navbar">
@@ -34,20 +34,32 @@
     <ul id="Navlist">
         <li ><a href="index.html">Home</a></li>
         <li><a href="Websitepage2">Resume</a></li>
-        <li class="underline_text">Personal</li>
+        <li class="underline_text">Contact me</li>
     </ul>
   </div>
 
   <!-- Main -->
   <div id="Middle">
 
-      <div id="Left">
-        <h1>About me</h1>
-      </div>
-      <div id="Right">
+<form class="contactform" method="POST" name="contact_form" action="http://formspree.io/&#x74;&#105;&#109;&#x6f;&#46;&#117;&#105;&#109;&#111;&#110;&#101;&#x6e;&#x64;&#x65;&#x76;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">
+  <section>
 
+    <div style="float:left;margin-right:20px;">
+    <label><h1 id="kontakti" >Contact me</h1><label><br>
+    <label class="nimikkeet">Name :</lable>
+    <input class="box" type="text" name="name" placeholder="Your name"><br>
 
-      </div>
+    <label class="nimikkeet">Email : </lable>
+    <input type="email" name="_replyto" placeholder="Your email"><br>
+    <input type="hidden" name="_subject" value="Website contact" /><br>
+    <label for="title" class="nimikkeet">Message : </label>
+
+    <textarea name="title" placeholder="Your message" cols="50" rows="8"></textarea>
+    <input type="text" name="_gotcha" style="display:none" /><br>
+    <br><input type="submit" value="Send">
+  </div>
+</section>
+</form>
   </div>
   <!-- Footer -->
   <div id="Footer">
