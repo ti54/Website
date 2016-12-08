@@ -240,11 +240,11 @@ br {
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:0px;
+  bottom:-400px;
   left: 0px;
 
   line-height: 50px;
-  position: relative;
+  position: absolute;
 
 }
 
