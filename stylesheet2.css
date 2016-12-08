@@ -242,6 +242,7 @@ br {
   width: 100%;
   bottom:-1800px;
   left: 0px;
+  border: none;
 
   line-height: 50px;
   position: absolute;
