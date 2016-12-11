@@ -1,9 +1,7 @@
 
 
-
 body {
   margin:0;
-  width: 100%;
 }
 
 
@@ -143,32 +141,30 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:1900px;
+  height:1980px;
   width: 100%;
   top:-50px;
-/*  vertical-align:middle;
+  vertical-align:middle;
   display: flex;
-  justify-content: center; */
+  justify-content: center;
   background-color:white;
-  color: black;
-  text-align: left;
+  text-align: center;
   position: relative;
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 45px;
-  font-size:18px;
+
+
 }
 
 
 #Left, #Right {
   height:300px;
   font-family: 'Open Sans', sans-serif;
-  width: 600px;
+  width: 100%;
   color:black;
   background-color:white;
   font-size:18px;
   text-align: left;
   vertical-align: middle;
-  padding: 40px;
+  padding: 80px;
 
 
 }
@@ -240,7 +236,7 @@ br {
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-300px;
+  bottom:0px;
   left: 0px;
 
   line-height: 50px;
