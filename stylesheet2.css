@@ -241,12 +241,12 @@ br {
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-1800px;
+  bottom:-300px;
   left: 0px;
   border: none;
 
   line-height: 50px;
-  position: absolute;
+  position: relative;
 
 }
 
