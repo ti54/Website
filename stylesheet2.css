@@ -1,5 +1,6 @@
 
 
+
 body {
   margin:0;
 }
@@ -60,7 +61,7 @@ table {
   height: 300px;
   width: 100%;
   left: 0px;
-  top: -27px;
+  top: -28px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -141,16 +142,20 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:1980px;
+  height:1900px;
   width: 100%;
   top:-50px;
-  vertical-align:middle;
+/*  vertical-align:middle;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
   background-color:white;
-  text-align: center;
+  color: black;
+  text-align: left;
   position: relative;
-
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 0px;
+  padding-top: 45px;
+  font-size:18px;
 
 }
 
@@ -158,13 +163,13 @@ a:hover:after {
 #Left, #Right {
   height:300px;
   font-family: 'Open Sans', sans-serif;
-  width: 100%;
+  width: 600px;
   color:black;
   background-color:white;
   font-size:18px;
   text-align: left;
   vertical-align: middle;
-  padding: 80px;
+  padding: 40px;
 
 
 }
@@ -236,8 +241,9 @@ br {
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-400px;
+  bottom:-300px;
   left: 0px;
+  border: none;
 
   line-height: 50px;
   position: relative;
