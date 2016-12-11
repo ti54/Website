@@ -40,6 +40,9 @@ button:hover {
   }
 textarea{
   font-size: 15px;
+  -moz-user-select: text;
+  -webkit-user-select: text;
+  -ms-user-select: text;
 }
 
 
