@@ -3,6 +3,7 @@
 
 body {
   margin:0;
+  width: 100%;
 }
 
 
@@ -61,7 +62,7 @@ table {
   height: 300px;
   width: 100%;
   left: 0px;
-  top: -28px;
+  top: -27px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -153,10 +154,8 @@ a:hover:after {
   text-align: left;
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  padding-left: 0px;
   padding-top: 45px;
   font-size:18px;
- 
 }
 
 
@@ -243,7 +242,6 @@ br {
   width: 100%;
   bottom:-300px;
   left: 0px;
-  border: none;
 
   line-height: 50px;
   position: relative;
