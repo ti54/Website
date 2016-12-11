@@ -144,7 +144,7 @@ a:hover:after {
 }
 #Middle {
   height:1900px;
-  width: 100%;
+  width: 96%;
   top:-50px;
 /*  vertical-align:middle;
   display: flex;
@@ -155,6 +155,7 @@ a:hover:after {
   position: relative;
   font-family: 'Open Sans', sans-serif;
   padding-top: 45px;
+  padding-left: 40px;
   font-size:18px;
 }
 
