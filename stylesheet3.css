@@ -5,7 +5,9 @@ body {
   margin:0;
 }
 
-
+{
+        -webkit-user-select: text; 
+}
 .nimikkeet {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
