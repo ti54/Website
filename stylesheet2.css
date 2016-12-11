@@ -10,7 +10,7 @@ body {
 #Topbar{
   background-color: #2B2B2B;
   height: 50px;
-  width: 102%;
+  width: 100%;
   margin: 0;
   padding:0;
   border: 0;
@@ -60,7 +60,7 @@ table {
   line-height: 285px;
   background-color: #2B2B2B;
   height: 300px;
-  width: 102%;
+  width: 100%;
   left: 0px;
   top: -28px;
   margin: 0px;
@@ -79,7 +79,7 @@ h1 {
 }
 #Navbar{
   height: 48px;
-  width: 102%;
+  width: 100%;
   left: 0px;
   top:-66px;
   margin:0;
@@ -144,7 +144,7 @@ a:hover:after {
 }
 #Middle {
   height:1900px;
-  width: 99%;
+  width: 96%;
   top:-50px;
 /*  vertical-align:middle;
   display: flex;
@@ -240,7 +240,7 @@ br {
 
   background-color: #e3e6e9;
   height:55px;
-  width: 102%;
+  width: 100%;
   bottom:-300px;
   left: 0px;
 
