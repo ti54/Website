@@ -5,9 +5,7 @@ body {
   margin:0;
 }
 
-{
-        -webkit-user-select: text; 
-}
+
 .nimikkeet {
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -25,6 +23,7 @@ input, label {
     width: 375px;
     height: 30px;
     font-size: 15px;
+
   }
 button {
     background-color: #4d4d4d;
@@ -40,10 +39,10 @@ button:hover {
   }
 textarea{
   font-size: 15px;
+  height: 140px;
   -moz-user-select: text;
   -webkit-user-select: text;
   -ms-user-select: text;
-    
 }
 
 
@@ -63,18 +62,54 @@ textarea{
   display: flex;
   justify-content: center;
   text-align: center;
+  min-width: 1050px;
 
 }
-#Langbar, #Contactbar {
+#Contactbar {
   height: 50px;
   width: 50%;
   vertical-align: middle;
   line-height: 15px;
   border: 40px;
   color: white;
+  min-width: 500px;
+
+}
+.achtung{
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+
+  margin-top: 0em;
+  margin-bottom: 0em;
+
+}
+#Langbar {
+  height: 50px;
+  width: 50%;
+  vertical-align: middle;
+  line-height: 15px;
+  border: 2px;
+  color: white;
+  min-width: 500px;
 
 }
 
+#OikeaTaulukko {
+  font-family: 'Open Sans', sans-serif;
+  border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#VasenTaulukko {
+  font-family: 'Open Sans', sans-serif;
+  border-spacing: 10px;
+  margin-left: 70px;
+  text-align: center;
+
+
+}
 table {
   font-family: 'Open Sans', sans-serif;
   border-spacing: 10px;
@@ -103,7 +138,7 @@ table {
   height: 300px;
   width: 100%;
   left: 0px;
-  top: -28px;
+  top: -27px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -112,6 +147,7 @@ table {
   position: relative;
   vertical-align: top;
   color: white;
+  min-width: 1050px;
 
 }
 h1 {
@@ -133,17 +169,22 @@ h1 {
   font-size: 150%;
   text-align: center;
   color: white;
+  min-width: 1050px;
 
 }
 #Navlist li {
   display:inline;
   text-align: center;
   margin: 20px;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
 
  }
 
+ul {
+  padding:0;
+}
 
  hr {
   height: .25rem;
@@ -198,6 +239,7 @@ vertical-align:middle;
   color: black;
   position: relative;
   font-family: 'Open Sans', sans-serif;
+  min-width: 1050px;
   }
 
 
@@ -247,6 +289,10 @@ padding-top: 23px;
 br {
   line-height: 25px;
 }
+#breaikki {
+
+  line-height: 2px
+}
 #date {
 
   padding-top: 23px;
@@ -270,9 +316,10 @@ br {
   width: 100%;
   bottom:-500px;
   left: 0px;
+  min-width: 1050px;
 
   line-height: 50px;
-  position: relative;
+  position: absolute;
 
 }
 
