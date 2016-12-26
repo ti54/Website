@@ -23,16 +23,42 @@ body {
   min-width: 1050px;
 
 }
-#Langbar, #Contactbar {
+#Contactbar {
   height: 50px;
-  width: 60%;
+  width: 50%;
   vertical-align: middle;
   line-height: 15px;
   border: 40px;
   color: white;
+  min-width: 500px;
+
+}
+#Langbar {
+  height: 50px;
+  width: 50%;
+  vertical-align: middle;
+  line-height: 15px;
+  border: 2px;
+  color: white;
+  min-width: 500px;
 
 }
 
+#OikeaTaulukko {
+  font-family: 'Open Sans', sans-serif;
+  border-spacing: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+#VasenTaulukko {
+  font-family: 'Open Sans', sans-serif;
+  border-spacing: 10px;
+  margin-left: 70px;
+  text-align: center;
+
+
+}
 table {
   font-family: 'Open Sans', sans-serif;
   border-spacing: 10px;
