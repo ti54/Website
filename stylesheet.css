@@ -12,10 +12,6 @@ body {
 
 
 }
-
-ul {
-  padding:0;
-}
 #Topbar{
   background-color: #2B2B2B;
   height: 50px;
@@ -170,7 +166,7 @@ a:hover:after {
 }
 
 #Middle {
-  height:850px;
+  height:550px;
   width: 100%;
   top:-50px;
   vertical-align:middle;
@@ -228,12 +224,12 @@ height: 350px;
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-400px;
-  left: 0px;
+  bottom: -600px;
+    left: 0px;
   min-width: 1050px;
 
   line-height: 50px;
-  position: absolute;
+  position: absolute;;
 
 }
 
