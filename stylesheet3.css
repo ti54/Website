@@ -229,7 +229,7 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:590px;
+  height:1050px;
   width: 96%;
   top:-50px;
 vertical-align:middle;
@@ -314,7 +314,7 @@ br {
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  bottom:-500px;
+  bottom:0px;
   left: 0px;
   min-width: 1050px;
 
