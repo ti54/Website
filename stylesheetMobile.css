@@ -95,7 +95,7 @@ ul {
 
 }
 .Header {
-  line-height: 285px;
+  line-height: 290px;
   background-color: #2B2B2B;
   height: 300px;
   width: 100%;
@@ -208,7 +208,7 @@ a:hover:after {
   width: 300px;
   color:black;
   background-color:white;
-  font-size:18px;
+  font-size:20px;
   text-align: left;
   vertical-align: middle;
 
