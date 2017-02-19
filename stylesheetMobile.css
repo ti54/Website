@@ -41,7 +41,7 @@ ul {
   display: flex;
   justify-content: center;
   text-align: center;
-
+  min-width: 1050px;
 }
 #Contactbar {
   height: 50px;
@@ -50,7 +50,7 @@ ul {
   line-height: 15px;
   border: 40px;
   color: white;
- 
+  min-width: 500px;
 
 }
 #Langbar {
@@ -60,7 +60,7 @@ ul {
   line-height: 15px;
   border: 2px;
   color: white;
-
+  min-width: 500px;
 
 }
 
@@ -109,7 +109,7 @@ ul {
   position: relative;
   vertical-align: top;
   color: white;
-
+  min-width: 1050px;
 
 }
 h1 {
@@ -127,7 +127,7 @@ h1 {
   font-size: 150%;
   text-align: center;
   color: white;
-
+  min-width: 1050px;
 
 }
 #Navlist li {
@@ -180,7 +180,7 @@ a:hover:after {
 }
 
 #Middle {
-  height:800px;
+  height:1050px;
   width: 100%;
   top:-50px;
   vertical-align:middle;
@@ -189,7 +189,7 @@ a:hover:after {
   background-color:white;
   text-align: center;
   position: relative;
-
+  min-width: 1050px;
 
 
 
@@ -241,7 +241,7 @@ height: 350px;
   width: 100%;
 clear: both;
     left: 0px;
-
+  min-width: 1050px;
 
   position: absolute;
 
