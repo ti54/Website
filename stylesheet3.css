@@ -1,6 +1,5 @@
 
 
-
 body {
   margin:0;
 }
@@ -127,7 +126,7 @@ table {
 }
 .Icon {
 
-  color: #2B2B2B;
+  color: #212121;;
 
 
 
@@ -229,7 +228,7 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:1050px;
+  height:700px;
   width: 96%;
   top:-50px;
 vertical-align:middle;
