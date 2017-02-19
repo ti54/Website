@@ -1,10 +1,15 @@
 
-html{
 
-min-height:100%;
+
+html{
+  min-height: 100%;
 }
+
+
 body {
   margin:0;
+  width: 100%;
+
 }
 
 ul {
@@ -14,14 +19,15 @@ ul {
 
 #Wrapper {
 
-  width: 1267px;
+  width: 1050px;
   top:0px;
+  height: 1200px;
 
 
 
 }
 #Topbar{
-  background-color: #2B2B2B;
+  background-color: #212121;
   height: 50px;
   width: 100%;
   margin: 0;
@@ -43,7 +49,7 @@ ul {
   vertical-align: middle;
   line-height: 15px;
   border: 40px;
-  color: white;
+  color: #e5e5e5;
   min-width: 500px;
 
 }
@@ -53,7 +59,7 @@ ul {
   vertical-align: middle;
   line-height: 15px;
   border: 2px;
-  color: white;
+  color: #e5e5e5;
   min-width: 500px;
 
 }
@@ -83,14 +89,14 @@ ul {
 }
 .Icon {
 
-  color: #2B2B2B;
+  color: #e5e5e5;
 
 
 
 }
 .Header {
   line-height: 285px;
-  background-color: #2B2B2B;
+  background-color: #212121;
   height: 300px;
   width: 100%;
   left: 0px;
@@ -102,8 +108,9 @@ ul {
   font-size: 360%;
   position: relative;
   vertical-align: top;
-  color: white;
+  color: #e5e5e5;
   min-width: 1050px;
+
 
 }
 h1 {
@@ -117,10 +124,10 @@ h1 {
   top:-66px;
   margin:0;
   position: relative;
-  background-color: #2B2B2B;
+  background-color: #212121;
   font-size: 150%;
   text-align: center;
-  color: white;
+  color: #e5e5e5;
   min-width: 1050px;
 
 }
@@ -130,6 +137,7 @@ h1 {
   margin: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
+
 
 
  }
@@ -148,7 +156,7 @@ a {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: white;
+  color: #e5e5e5;
 }
 
 a:after {
@@ -158,6 +166,7 @@ a:after {
   width: 0%;
   border-bottom: 2px solid ;
   transition: width .2s ease, background-color .5s ease;
+
 }
 a:hover:after {
   width: 100%;
@@ -171,10 +180,11 @@ a:hover:after {
   rgba(0,0,0)
 
   );
+  color: white;
 }
 
 #Middle {
-  height:800px;
+  height:750px;
   width: 100%;
   top:-50px;
   vertical-align:middle;
@@ -184,6 +194,7 @@ a:hover:after {
   text-align: center;
   position: relative;
   min-width: 1050px;
+
 
 
 
@@ -232,12 +243,11 @@ height: 350px;
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-
+clear: both;
     left: 0px;
   min-width: 1050px;
 
-  line-height: 50px;
-  position: relative;
+  position: absolute;
 
 }
 
