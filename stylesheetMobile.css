@@ -27,7 +27,7 @@ ul {
 
 }
 #Topbar{
-  background-color: #2B2B2B;
+  background-color: #212121;
   height: 50px;
   width: 100%;
   margin: 0;
@@ -49,7 +49,7 @@ ul {
   vertical-align: middle;
   line-height: 15px;
   border: 40px;
-  color: white;
+  color: #e5e5e5;
   min-width: 500px;
 
 }
@@ -59,7 +59,7 @@ ul {
   vertical-align: middle;
   line-height: 15px;
   border: 2px;
-  color: white;
+  color: #e5e5e5;
   min-width: 500px;
 
 }
@@ -89,14 +89,14 @@ ul {
 }
 .Icon {
 
-  color: #2B2B2B;
+  color: #e5e5e5;
 
 
 
 }
 .Header {
   line-height: 290px;
-  background-color: #2B2B2B;
+  background-color: #212121;
   height: 300px;
   width: 100%;
   left: 0px;
@@ -108,7 +108,7 @@ ul {
   font-size: 360%;
   position: relative;
   vertical-align: top;
-  color: white;
+  color: #e5e5e5;
   min-width: 1050px;
 
 }
@@ -123,10 +123,10 @@ h1 {
   top:-66px;
   margin:0;
   position: relative;
-  background-color: #2B2B2B;
+  background-color: #212121;
   font-size: 150%;
   text-align: center;
-  color: white;
+  color: #e5e5e5;
   min-width: 1050px;
 
 }
@@ -154,7 +154,7 @@ a {
   text-decoration: none;
   display: inline-block;
   position: relative;
-  color: white;
+  color: #e5e5e5;
 }
 
 a:after {
@@ -172,8 +172,8 @@ a:hover:after {
 .one {
   background-image: linear-gradient(
   180deg, rgba(0,0,0,0),
-  #FFFFFF 81.1%,
-  #FFFFFF 85%,image();rgba(0,0,0,0) 85,1%
+  #e5e5e5 81.1%,
+  #e5e5e5 85%,image();rgba(0,0,0,0) 85,1%
   rgba(0,0,0)
 
   );
@@ -243,7 +243,7 @@ clear: both;
     left: 0px;
   min-width: 1050px;
 
-  position: relative;
+  position: absolute;
 
 }
 
