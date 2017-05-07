@@ -29,6 +29,12 @@ ul {
 
 }
 
+.Linie {
+  background: #ccc9c9;
+  width: 100%;
+  height: 1px;
+  border: none;
+}
 #Topbar{
   background-color: #212121;
   height: 50px;
