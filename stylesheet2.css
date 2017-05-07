@@ -2,11 +2,32 @@
 body {
   margin:0;
   width: 100%;
+
 }
 ul {
   padding:0;
 }
+.taulukko {
+ margin: 0px;
+ width: 100%;
+}
+.taulukko tr{
+  line-height: 15px;
+}
+.vasenSarake {
+  height: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  width: 43%;
+  min-width: 501px;
+}
+.oikeaSarake {
+  height: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  width: 57%;
 
+}
 
 #Topbar{
   background-color: #212121;
