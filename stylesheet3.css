@@ -132,7 +132,9 @@ input, label {
 textarea {
   border-width: 2px;
   outline-color: #5264AE;
-    font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  max-height: 240px;
+  max-width: 800px;
 }
 .box {
    width: 375px;
