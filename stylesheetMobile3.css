@@ -317,7 +317,7 @@ h1 {
   height: 48px;
   width: 100%;
   left: 0px;
-  top: 0px;
+  top: -1px;
   margin:0;
   position: relative;
   background-color: #212121;
@@ -325,7 +325,7 @@ h1 {
   text-align: center;
   color: #e5e5e5;
   min-width: 1050px;
-  margin-bottom:2px;
+
 
 }
 #Navlist li {
