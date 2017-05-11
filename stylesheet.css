@@ -14,11 +14,18 @@ body {
 
 ul {
   padding:0;
-  margin:0;
 }
 
 
+#Wrapper {
 
+  width: 1050px;
+  top:0px;
+  height: 1200px;
+
+
+
+}
 #Topbar{
   background-color: #212121;
   height: 50px;
@@ -44,6 +51,7 @@ ul {
   border: 40px;
   color: #e5e5e5;
   min-width: 500px;
+
 }
 #Langbar {
   height: 50px;
@@ -61,7 +69,6 @@ ul {
   border-spacing: 10px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 3px;
 
 }
 #VasenTaulukko {
@@ -69,7 +76,6 @@ ul {
   border-spacing: 10px;
   margin-left: 70px;
   text-align: center;
-  margin-top: 3px;
 
 
 }
@@ -83,7 +89,7 @@ ul {
 }
 .Icon {
 
-  color: #e5e5e5;
+  color: #212121;
 
 
 
@@ -91,10 +97,10 @@ ul {
 .Header {
   line-height: 285px;
   background-color: #212121;
-  height: 287px;
+  height: 300px;
   width: 100%;
   left: 0px;
-  top: 0px;
+  top: -28px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -110,14 +116,12 @@ ul {
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
-  margin-top: 0;
-  margin-bottom: 0;
 }
 #Navbar{
   height: 48px;
   width: 100%;
   left: 0px;
-  top: 0px;
+  top:-66px;
   margin:0;
   position: relative;
   background-color: #212121;
@@ -131,10 +135,8 @@ h1 {
   display:inline;
   text-align: center;
   margin: 20px;
-  padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
-  margin:0;
 
 
 
@@ -182,9 +184,9 @@ a:hover:after {
 }
 
 #Middle {
-  height:750px;
+  height:700px;
   width: 100%;
-  top:0px;
+  top:-50px;
   vertical-align:middle;
   display: flex;
   justify-content: center;
@@ -241,8 +243,8 @@ height: 350px;
   background-color: #e3e6e9;
   height:55px;
   width: 100%;
-  clear: both;
-  left: 0px;
+clear: both;
+    left: 0px;
   min-width: 1050px;
 
   position: absolute;
