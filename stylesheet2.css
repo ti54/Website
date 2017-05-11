@@ -61,7 +61,6 @@ ul {
   border: 40px;
   color: #e5e5e5;
   min-width: 500px;
-
 }
 #Langbar {
   height: 50px;
@@ -87,6 +86,8 @@ ul {
   margin-left: 70px;
   text-align: center;
 
+
+}
 
 }
 table {
@@ -117,7 +118,7 @@ table {
   height: 300px;
   width: 100%;
   left: 0px;
-  top: -28px;
+  top: 0px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -151,6 +152,7 @@ h1 {
   display:inline;
   text-align: center;
   margin: 20px;
+  padding: 0;
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
 
