@@ -2,16 +2,137 @@
 
 body {
   margin:0;
+  padding: 0;
+}
+/* LOMAKE ----------------------------------------------*/
+#lomake 		{
+  font-family: 'Open Sans', sans-serif;
+  width:600px;
+  margin:30px auto 0;
+  display:block;
+  background:#FFF;
+  padding:10px 50px 50px;
+  height: 1270px;
+
+}
+h2 		 {
+  text-align:center;
+  margin-bottom:50px;
+}
+h2 small {
+  font-weight:normal;
+  color:#888;
+  display:block;
+}
+.footer 	{ text-align:center; }
+.footer a  { color:#53B2C8; }
+
+/* form starting stylings ------------------------------- */
+.group 			  {
+  position:relative;
+  margin-bottom:45px;
+}
+input 				{
+  font-size:18px;
+  padding:10px 10px 10px 5px;
+  display:block;
+  width:300px;
+  border:none;
+  border-bottom:1px solid #757575;
+}
+input:focus 		{ outline:none; }
+
+/* LABELIT ======================================= */
+label 				 {
+  color:#999;
+  font-size:18px;
+  font-weight:normal;
+  position:absolute;
+  pointer-events:none;
+  left:5px;
+  top:10px;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
 }
 
+/* active state */
+input:focus ~ label, input:valid ~ label 		{
+  top:-20px;
+  font-size:14px;
+  color:#5264AE;
+}
+
+/* BOTTOM BARS ================================= */
+.bar 	{ position:relative; display:block; width:315px; } /* Animaation pituus*/
+.bar:before, .bar:after 	{
+  content:'';
+  height:2px;
+  width:0;
+  bottom:1px;
+  position:absolute;
+  background:#5264AE;
+  transition:0.2s ease all;
+  -moz-transition:0.2s ease all;
+  -webkit-transition:0.2s ease all;
+}
+.bar:before {
+  left:50%;
+}
+.bar:after {
+  right:50%;
+}
+
+/* active state */
+input:focus ~ .bar:before, input:focus ~ .bar:after {
+  width:50%;
+}
+
+/* KOROSTUS ================================== */
+.highlight {
+  position:absolute;
+  height:60%;
+  width:100px;
+  top:25%;
+  left:0;
+  pointer-events:none;
+  opacity:0.5;
+}
+
+/* active state */
+input:focus ~ .highlight {
+  -webkit-animation:inputHighlighter 0.3s ease;
+  -moz-animation:inputHighlighter 0.3s ease;
+  animation:inputHighlighter 0.3s ease;
+}
+
+/* ANIMAATIOT ================ */
+@-webkit-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@-moz-keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
+@keyframes inputHighlighter {
+	from { background:#5264AE; }
+  to 	{ width:0; background:transparent; }
+}
 
 .nimikkeet {
   font-weight: bold;
+  position: relative;;
   font-family: 'Open Sans', sans-serif;
-
+  margin-bottom: 70px;
 }
 input, label {
     display:block;
+}
+textarea {
+  border-width: 2px;
+  outline-color: #5264AE;
+    font-family: 'Open Sans', sans-serif;
 }
 .box {
    width: 375px;
@@ -24,17 +145,40 @@ input, label {
     font-size: 15px;
 
   }
+
+  /* NAPPI ------------------------------------------- */
 button {
-    background-color: #212121;
+    background-color: #424242;
     color: #e5e5e5;
     padding: 10px 30px;
     border: 0 none;
     cursor:pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    border-radius: 2px;
+    text-align: center;
+
    }
+   /* Napin laajentuminen */
+   button  span{
+     max-width: 0;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+  text-align: center;
+
+      }
 button:hover {
 
+  background-color: #212121;
+}
+button:hover span {
 
-    background-color: #4d4d4d;
+    max-width: 7rem;
+
   }
 textarea{
   font-size: 15px;
@@ -45,7 +189,7 @@ textarea{
 }
 
 
-
+/* TOP OF THE SITE --------------------------------------- */
 #Topbar{
   background-color: #212121;
   height: 50px;
@@ -74,14 +218,23 @@ textarea{
   min-width: 500px;
 
 }
-.achtung{
+#achtung{
 
   font-family: 'Open Sans', sans-serif;
   font-size: 10px;
+  height: 60px;
+  min-width: 1050px;
+  text-align: right;
 
-  margin-top: 0em;
-  margin-bottom: 0em;
-
+}
+#achtung p{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  border: 0;
+  margin-right: 60px;
+  padding-top: 15px;
+  text-align: left;
+  margin-left: 70%;
 }
 #Langbar {
   height: 50px;
@@ -99,6 +252,7 @@ textarea{
   border-spacing: 10px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 50px;
 
 }
 #VasenTaulukko {
@@ -106,6 +260,7 @@ textarea{
   border-spacing: 10px;
   margin-left: 70px;
   text-align: center;
+  margin-top: 50px;
 
 
 }
@@ -128,16 +283,15 @@ table {
 
   color: #2B2B2B;
 
-
-
 }
+
 .Header {
   line-height: 285px;
   background-color: #212121;
-  height: 300px;
+  height: 287px;
   width: 100%;
   left: 0px;
-  top: -28px;
+  top: 0px;
   margin: 0px;
   border: 0px;
   padding: 0;
@@ -152,6 +306,8 @@ table {
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-weight: 100;
+  margin-top: 49px;
+  margin-bottom: 0px;
 }
 #kontakti {
   font-family: 'Open Sans', sans-serif;
@@ -161,7 +317,7 @@ h1 {
   height: 48px;
   width: 100%;
   left: 0px;
-  top:-66px;
+  top: 0px;
   margin:0;
   position: relative;
   background-color: #212121;
@@ -183,6 +339,7 @@ h1 {
 
 ul {
   padding:0;
+  margin: 0;
 }
 
  hr {
@@ -227,19 +384,6 @@ a:hover:after {
       display: inline;
       padding-bottom: 0.25px;
 }
-#Middle {
-  height:1025px;
-  width: 96%;
-  top:-50px;
-vertical-align:middle;
-  display: flex;
-  justify-content: center;
-  background-color:white;
-  color: black;
-  position: relative;
-  font-family: 'Open Sans', sans-serif;
-  min-width: 1050px;
-  }
 
 
 
@@ -268,6 +412,8 @@ h2,h4 {
 h1.Otsikko {
 
   font-size: 40px;
+  margin-top: 15px;
+  margin-left: 0;
 }
 .WT {
 
@@ -292,22 +438,7 @@ br {
 
   line-height: 2px
 }
-#date {
 
-  padding-top: 23px;
-}
-#Date {
-
-  padding-top: 10px;
-}
-#Date2 {
-
-  padding-top: 23px;
-}
-#date2 {
-
-  padding-top: 4px;
-}
 #Footer {
 
   background-color: #e3e6e9;
