@@ -12,6 +12,11 @@ ul {
  margin: 0px;
  width: 100%;
 }
+.Main {
+  font-family: 'Raleway', sans-serif;
+  font-size: 110px;
+  text-transform: uppercase;
+}
 .taulukko tr{
   line-height: 19px;
 }
