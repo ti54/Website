@@ -215,7 +215,7 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 
-#Left, #Right {
+#Left {
   height:250px;
   font-family: 'Open Sans', sans-serif;
   width: 300px;
@@ -224,11 +224,22 @@ a:hover:after {
   font-size:18px;
   text-align: left;
   vertical-align: middle;
-
   padding: 70px;
 
 }
+#Right {
+  height:250px;
+  font-family: 'Open Sans', sans-serif;
+  width: 300px;
+  color:black;
+  background-color:white;
+  font-size:18px;
+  text-align: left;
+  vertical-align: middle;
+  padding: 70px;
+  margin-left:20px;
 
+}
 
 .tekstiosuus {
 
@@ -242,7 +253,7 @@ height: 50px;
 float:right;
 vertical-align: middle;
 display: table-cell;
-height: 350px;
+height: 400px;
 
 
 
