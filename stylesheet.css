@@ -1,6 +1,5 @@
 
 
-
 html{
   min-height: 100%;
 }
@@ -11,6 +10,7 @@ body {
   width: 100%;
 
 }
+
 
 .Main {
   font-family: 'Raleway', sans-serif;
@@ -98,10 +98,12 @@ ul {
 .Icon {
 
   color: #212121;
-
-
-
 }
+
+noscript {
+  font-size: 15px;
+}
+
 .Header {
   line-height: 285px;
   background-color: #212121;
@@ -161,7 +163,7 @@ h1 {
   transition: .3s ease-in-out;
 }
 
-a {
+#Navlist a {
   text-decoration: none;
   display: inline-block;
   position: relative;
