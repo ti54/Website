@@ -1,5 +1,4 @@
 
-
 body {
   margin:0;
   padding: 0;
@@ -9,6 +8,11 @@ body {
   font-size: 110px;
   text-transform: uppercase;
 }
+noscript {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 /* LOMAKE ----------------------------------------------*/
 #lomake 		{
   font-family: 'Open Sans', sans-serif;
