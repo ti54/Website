@@ -15,6 +15,16 @@
   ga('send', 'pageview');
 </script>
   <link rel="canonical" href="https://www.timouimonen.com/">
+  <script>
+           function LahetaPostia(href)
+           {
+               var lahettaja = "timo.uimonendev";
+               lahettaja += "@gmail.com";
+               var uri = "mailto:"
+               uri += encodeURIComponent(lahettaja);
+               window.location.href = uri;
+           }
+       </script>
 </head>
   <body>
 
@@ -36,11 +46,14 @@
           <tbody class="Tabels">
             <tr>
               <td>Contact me:</td>
-              <td><a class="Icon" href="&#x6d;&#97;&#105;&#108;&#116;&#x6f;&#x3a;&#x74;&#105;&#x6d;&#x6f;&#x2e;&#x75;&#x69;&#x6d;&#111;&#x6e;&#101;&#x6e;&#100;&#101;&#118;&#64;&#x67;&#x6d;&#x61;&#105;&#108;&#46;&#99;&#111;&#x6d;" ><img src="mail_grey.png" alt="Email icon" class="Contact"</td></a>
+              <td><noscript>Please enable JavaScript to send mail or use contact me page.</noscript>
+                <a class="Icon "href="javascript:(function()%7BLahetaPostia()%3B%7D)()%3B"><img src="mail_grey.png" alt="Email icon" class="Contact"></a>
+
+              </td>
             </tr>
           </tbody>
         </table>
-        <p>Test> </p>
+
       </div>
   </div>
   <!-- Header -->
