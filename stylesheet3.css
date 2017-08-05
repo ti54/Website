@@ -1,9 +1,13 @@
 
-
 body {
   margin:0;
   padding: 0;
 }
+noscript {
+  font-size: 15px;
+  line-height: 20px;
+}
+
 .Main {
   font-family: 'Raleway', sans-serif;
   font-size: 110px;
