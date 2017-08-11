@@ -3,7 +3,10 @@ html{
   min-height: 100%;
 }
 
-
+ul {
+  padding:0;
+  margin: 0;
+}
 body {
   margin:0;
   width: 100%;
@@ -21,10 +24,6 @@ noscript {
 
 }
 
-ul {
-  padding:0;
-  margin: 0;
-}
 
 
 #Wrapper {
