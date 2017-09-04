@@ -471,22 +471,24 @@ br {
   line-height: 2px
 }
 
+#oikeudet {
+  padding-top: 1.7%;
+  padding-left: 20%;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+  font-size: 15px;
+}
 #Footer {
 
   background-color: #e3e6e9;
-  height:55px;
+  height: 75px;
   width: 100%;
-  bottom:0px;
+  clear: both;
   left: 0px;
   min-width: 1050px;
 
-  line-height: 50px;
   position: relative;
-
 }
-
-
-
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
