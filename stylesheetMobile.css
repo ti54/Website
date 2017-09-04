@@ -24,8 +24,6 @@ noscript {
 
 }
 
-
-
 #Wrapper {
 
   width: 1050px;
@@ -206,7 +204,7 @@ a:hover:after {
   text-align: center;
   position: relative;
   min-width: 1050px;
-
+  padding-top: 70px
 
 
 
@@ -219,6 +217,7 @@ a:hover:after {
 }
 
 #Left {
+
   height:250px;
   font-family: 'Open Sans', sans-serif;
   width: 300px;
@@ -228,6 +227,7 @@ a:hover:after {
   text-align: left;
   vertical-align: middle;
   padding: 70px;
+  margin-left:20px;
 
 }
 #Right {
@@ -240,8 +240,6 @@ a:hover:after {
   text-align: left;
   vertical-align: middle;
   padding: 70px;
-  margin-left:20px;
-
 }
 
 .tekstiosuus {
@@ -261,19 +259,24 @@ height: 375px;
 
 
 }
+#oikeudet {
+  padding-top: 1.7%;
+  padding-left: 20%;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+  font-size: 15px;
+}
 #Footer {
 
   background-color: #e3e6e9;
-  height:55px;
+  height: 75px;
   width: 100%;
   clear: both;
   left: 0px;
   min-width: 1050px;
 
   position: relative;
-
 }
-
 
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
