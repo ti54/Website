@@ -12,6 +12,7 @@ body {
 }
 
 
+}
 .Main {
   font-family: 'Raleway', sans-serif;
   font-size: 110px;
@@ -208,6 +209,11 @@ a:hover:after {
   min-width: 1050px;
   padding-top: 70px;
 }
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+  #Middle {
+    height: 1080px;
+  }
+}
 
 .underline_text {
       border-bottom: solid 2px #FFFFFF;
@@ -259,7 +265,7 @@ height: 375px;
 
 }
 #oikeudet {
-  padding-top: 1.7%;
+  padding-top: 1.8%;
   padding-left: 20%;
   font-family: 'Open Sans', sans-serif;
   color: #212121;
@@ -276,7 +282,47 @@ height: 375px;
 
   position: relative;
 }
+@media screen and (min-width: 2231px) {
+  #Middle {
+    height: 800px;
 
+  }
+  #tekstiosuus {
+    font-size: 21px;
+  }
+}
+@media screen and (min-width: 2232px) {
+  #Middle {
+    height: 1080px;
+
+  }
+  #Right {
+    width: 300px;
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 2233px) {
+  #Middle {
+    height: 1380px;
+
+  }
+  #Right {
+    width: 400px;
+      font-size: 27px;
+  }
+}
+@media screen and (min-width: 2234px) {
+  #Middle {
+    height: 3230px;
+  }
+  #Right {
+    width: 400px;
+      font-size: 35px;
+  }
+  #oikeudet {
+    padding-top: 0.4%;
+  }
+}
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
