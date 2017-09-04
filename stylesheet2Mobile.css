@@ -284,10 +284,29 @@ h1.Otsikko {
 
   font-size: 40px;
 }
-.WT {
+#WT1 {
 
   font-weight: normal;
   font-size: 19.5px;
+  padding-left: 380px;
+}
+#WT2 {
+
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 166px;
+}
+#WT21 {
+
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 276px;
+}
+#WT3 {
+
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 387px;
 }
 .space{
 
@@ -319,22 +338,24 @@ br {
 
   padding-top: 4px;
 }
+#oikeudet {
+  padding-top: 1.7%;
+  padding-left: 20%;
+  font-family: 'Open Sans', sans-serif;
+  color: #212121;
+  font-size: 15px;
+}
 #Footer {
 
   background-color: #e3e6e9;
-  height:55px;
+  height: 75px;
   width: 100%;
-
+  clear: both;
   left: 0px;
   min-width: 1050px;
 
-  line-height: 50px;
   position: relative;
-
 }
-
-
-
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Montserrat', sans-serif;
