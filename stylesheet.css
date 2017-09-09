@@ -209,7 +209,7 @@ a:hover:after {
 }
 @media screen and (min-width: 1px) and (max-width: 1000px) {
   #Middle {
-    height: 1100px;
+    height: 1270px;
   }
   #Navbar {
     top: -1px;
@@ -249,7 +249,7 @@ a:hover:after {
 #RightFI {
   height:250px;
   font-family: 'Open Sans', sans-serif;
-  width: 320px;
+  width: 360px;
   color:black;
   background-color:white;
   font-size:18px;
