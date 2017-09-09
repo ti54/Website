@@ -1,9 +1,6 @@
-
-
 html{
   min-height: 100%;
 }
-
 
 body {
   margin:0;
@@ -66,6 +63,7 @@ ul {
   border: 2px;
   color: #e5e5e5;
   min-width: 500px;
+
 }
 
 #OikeaTaulukko {
@@ -208,7 +206,7 @@ a:hover:after {
 }
 @media screen and (min-width: 1px) and (max-width: 1000px) {
   #Middle {
-    height: 1110px;
+    height: 1100px;
   }
   #Navbar {
     top: -1px;
@@ -237,7 +235,7 @@ a:hover:after {
 #Right {
   height:250px;
   font-family: 'Open Sans', sans-serif;
-  width: 300px;
+  width: 320px;
   color:black;
   background-color:white;
   font-size:18px;
@@ -259,7 +257,7 @@ height: 50px;
 float:right;
 vertical-align: middle;
 display: table-cell;
-height: 375px;
+height: 360px;
 
 
 
