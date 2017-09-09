@@ -415,9 +415,15 @@ a:hover:after {
   text-align: left;
   width: 600px;
 
-
 }
-
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+  #Navbar {
+    top: -1px;
+    }
+    #lomake {
+      height: 1270px;
+    }
+  }
 
 .tekstiosuus {
 
@@ -488,6 +494,24 @@ br {
   min-width: 1050px;
 
   position: relative;
+}
+@media screen and (min-width: 2234px) {
+
+  #oikeudet {
+    padding-top: 0.4%;
+  }
+  #lomake{
+    height: 1270px;
+  }
+}
+@media screen and (min-width: 2334px) {
+
+  #oikeudet {
+    padding-top: 0.4%;
+  }
+  #lomake{
+    height: 1830px;
+  }
 }
 /* font-family: 'Open Sans', sans-serif;
 font-family: 'Roboto', sans-serif;
