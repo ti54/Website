@@ -26,6 +26,11 @@ ul {
 .description p {
   margin-top: 0;
 }
+.description1 {
+  text-align: left;
+  width: 555px;
+  margin-top: 0;
+}
 
 
 .taulukko {
@@ -227,7 +232,7 @@ a:hover:after {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:2050px;
+  height:2430px;
   width: 96%;
   top:0px;
   vertical-align:middle;
@@ -242,7 +247,11 @@ a:hover:after {
   font-size:18px;
   min-width: 1050px;
 }
-
+@media screen and (min-width: 1px) and (max-width: 1000px) {
+  #Navbar {
+    top: -1px;
+    }
+  }
 
 #Left {
   height:300px;
@@ -284,6 +293,14 @@ h2,h4 {
 h1.Otsikko {
 
   font-size: 40px;
+}
+
+
+#WT0 {
+
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 391px;
 }
 #WT1 {
 
@@ -356,6 +373,12 @@ br {
   min-width: 1050px;
 
   position: relative;
+}
+@media screen and (min-width: 2234px) {
+
+  #oikeudet {
+    padding-top: 0.4%;
+  }
 }
 
 /* font-family: 'Open Sans', sans-serif;
