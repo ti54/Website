@@ -1,5 +1,3 @@
-
-
 html{
   min-height: 100%;
 }
@@ -32,7 +30,7 @@ ul {
 
 }
 #Topbar{
-  background-color: #212121;
+  background-color:#191919;
   height: 50px;
   width: 100%;
   margin: 0;
@@ -96,7 +94,7 @@ ul {
 }
 .Icon {
 
-  color: #212121;
+  color:#191919;
 }
 
 noscript {
@@ -106,7 +104,7 @@ noscript {
 
 .Header {
   line-height: 285px;
-  background-color: #212121;
+  background-color:#191919;
   height: 287px;
   width: 100%;
   left: 0px;
@@ -135,7 +133,7 @@ h1 {
   top: 0px;
   margin:0;
   position: relative;
-  background-color: #212121;
+  background-color:#191919;
   font-size: 150%;
   text-align: center;
   color: #e5e5e5;
@@ -276,10 +274,10 @@ height: 360px;
 
 }
 #oikeudet {
-  padding-top: 1.8%;
+  padding-top: 2.2%;
   padding-left: 20%;
   font-family: 'Open Sans', sans-serif;
-  color: #212121;
+  color: #4c4c4c;
   font-size: 15px;
 }
 #Footer {
