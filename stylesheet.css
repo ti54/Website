@@ -1,5 +1,3 @@
-
-
 html{
   min-height: 100%;
 }
@@ -10,7 +8,34 @@ body {
   width: 100%;
 
 }
+body a{
+  text-decoration: none;
+}
 
+.ikonit {
+  width: 30px;
+  height: 30px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  color: #191919;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 30px;
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+.ikonit:hover{
+  background-color: #fff;
+  color: #000000;
+  text-decoration: none;
+
+}
 .Main {
   font-family: 'Raleway', sans-serif;
   font-size: 110px;
@@ -19,6 +44,29 @@ body {
 ul {
   padding:0;
   margin: 0;
+}
+
+#epost {
+  width: 30px;
+  height: 30px;
+  background-color: #e5e5e5;
+  border-radius: 50%;
+  color: #191919;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 28px;
+  font-size: 25px;
+  text-decoration: none;
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+
+}
+#epost:hover {
+  background-color: #fff;
+  color: #000000;
+  text-decoration: none;
 }
 
 
@@ -170,7 +218,7 @@ h1 {
   color: #e5e5e5;
 }
 
-a:after {
+.navikointi:after {
   content: '';
   display: block;
   margin: auto;
@@ -179,7 +227,7 @@ a:after {
   transition: width .2s ease, background-color .5s ease;
 
 }
-a:hover:after {
+.navikointi:hover:after {
   width: 100%;
 }
 
