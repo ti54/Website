@@ -25,7 +25,7 @@
                var uri = "mailto:"
                uri += encodeURIComponent(lahettaja);
                window.location.href = uri;
-           }
+           };
        </script>
 </head>
   <body>
@@ -36,8 +36,9 @@
           <tbody class="Tabels">
             <tr>
               <td>Language:</td>
-              <td><a class="Icon" href="Etusivu" ><img src="Finnish_grey.png" alt="Finnish language" class="Contact"</td></a>
-              <td><a class="Icon" href="index" ><img src="English_grey.png" alt="English language" class="Contact"</td></a>
+              <td><a href="Etusivu"> <div class="ikonit"> FI </div></a>
+              <td><a href="index"> <div class="ikonit"> EN </div></a>
+              <td><a href="Hem"> <div class="ikonit"> SV </div></a>
             </tr>
           </tbody>
         </table>
@@ -50,7 +51,7 @@
               <td>Contact me:</td>
               <noscript>You have JavaScript disabled.<br>Please enable JavaScript in your browser.</noscript>
               <td>
-                <a class="Icon "href="javascript:(function()%7BLahetaPostia()%3B%7D)()%3B"><img src="mail_grey.png" alt="Email icon" class="Contact"></a>
+                <a href="javascript:(function()%7BLahetaPostia()%3B%7D)()%3B"><div id="epost">@</div></a>
               </td>
             </tr>
           </tbody>
@@ -67,8 +68,8 @@
 
     <ul id="Navlist">
         <li class="underline_text">Home</li>
-        <li><a href="Resume">Résumé</a></li>
-        <li><a href="Contactme">Contact me</a></li>
+        <li><a class="navikointi" href="Resume">Résumé</a></li>
+        <li><a class="navikointi" href="Contactme">Contact me</a></li>
     </ul>
   </div>
 
