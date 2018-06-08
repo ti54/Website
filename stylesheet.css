@@ -1,5 +1,3 @@
-
-
 html{
   min-height: 100%;
 }
@@ -30,6 +28,10 @@ body a{
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+
+  -webkit-transition: transform .15s ease-in-out;
+  -moz-transition:transform .15s ease-in-out;
+  -ms-transition:transform .15s ease-in-out;
 
 }
 .ikonit:hover{
@@ -72,6 +74,10 @@ ul {
   -moz-user-select: none; /* Firefox */
   -ms-user-select: none; /* IE10+/Edge */
   user-select: none; /* Standard */
+
+  -webkit-transition: transform .15s ease-in-out;
+  -moz-transition:transform .15s ease-in-out;
+  -ms-transition:transform .15s ease-in-out;
 
 }
 #epost:hover {
