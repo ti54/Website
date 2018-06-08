@@ -33,7 +33,16 @@ body a{
   background-color: #fff;
   color: #000000;
   text-decoration: none;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.15);
 
+  -webkit-transition: transform .15s ease-in-out;
+  -moz-transition:transform .15s ease-in-out;
+  -ms-transition:transform .15s ease-in-out;
 }
 #epost {
   width: 30px;
@@ -43,7 +52,7 @@ body a{
   color: #191919;
   text-align: center;
   vertical-align: middle;
-  line-height: 26px;
+  line-height: 28px;
   font-size: 25px;
   text-decoration: none;
   -webkit-user-select: none; /* Safari */
@@ -56,6 +65,16 @@ body a{
   background-color: #fff;
   color: #000000;
   text-decoration: none;
+  -moz-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -o-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.15);
+
+  -webkit-transition: transform .15s ease-in-out;
+  -moz-transition:transform .15s ease-in-out;
+  -ms-transition:transform .15s ease-in-out;
 }
 
 
@@ -431,9 +450,3 @@ br {
     padding-top: 0.4%;
   }
 }
-
-/* font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Oxygen', sans-serif;*/
