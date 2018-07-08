@@ -310,7 +310,7 @@ a {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:2430px;
+  height:2630px;
   width: 96%;
   top:0px;
   vertical-align:middle;
@@ -386,6 +386,12 @@ h1.Otsikko {
   font-size: 19.5px;
   padding-left: 380px;
 }
+#WT11 {
+
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 462px;
+}
 #WT2 {
 
   font-weight: normal;
@@ -454,6 +460,9 @@ br {
 }
 @media screen and (min-width: 2234px) {
 
+  #Middle {
+    height: 3230px;
+  }
   #oikeudet {
     padding-top: 0.4%;
   }
