@@ -144,8 +144,8 @@ label 				 {
 /* active state */
 input:focus ~ label, input:valid ~ label 		{
   top:-20px;
-  font-size:14px;
-  color:#5264AE;
+  font-size:17px;
+  color:#191919;
 }
 
 /* BOTTOM BARS ================================= */
@@ -156,7 +156,7 @@ input:focus ~ label, input:valid ~ label 		{
   width:0;
   bottom:1px;
   position:absolute;
-  background:#5264AE;
+  background: #191919;
   transition:0.2s ease all;
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
@@ -216,7 +216,7 @@ input, label {
 }
 textarea {
   border-width: 2px;
-  outline-color: #5264AE;
+  outline-color:#191919;
   font-family: 'Open Sans', sans-serif;
   max-height: 240px;
   max-width: 800px;
