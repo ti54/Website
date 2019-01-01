@@ -589,3 +589,12 @@ br {
     height: 1830px;
   }
 }
+@media screen and (min-width: 2534px) {
+
+  #oikeudet {
+    padding-top: 0.4%;
+  }
+  #lomake{
+    height: 3123px;
+  }
+}
