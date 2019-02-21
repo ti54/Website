@@ -392,8 +392,12 @@ h1.Otsikko {
 .Nimet {
 
   margin-top: 1.3em;
+  margin-bottom: -0.45em;
 }
+#NimetOther{
 
+  margin-bottom: 0.5em;
+}
 #WT0 {
 
   font-weight: normal;
