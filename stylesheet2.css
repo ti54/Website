@@ -310,7 +310,7 @@ a {
       padding-bottom: 0.25px;
 }
 #Middle {
-  height:2788px;
+  height:2768px;
   width: 96%;
   top:0px;
   vertical-align:middle;
@@ -326,7 +326,7 @@ a {
   min-width: 1050px;
 }
 #MiddleSuomi {
-  height:2740px;
+  height:2795px;
   width: 96%;
   top:0px;
   vertical-align:middle;
@@ -389,12 +389,17 @@ h1.Otsikko {
   font-size: 40px;
 }
 
+.Nimet {
+
+  margin-top: 1.3em;
+}
 
 #WT0 {
 
   font-weight: normal;
   font-size: 19.5px;
   padding-left: 391px;
+  margin-top: 1.2em;
 }
 #WT1 {
 
