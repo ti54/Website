@@ -4,6 +4,8 @@ html, body {
   padding: 0;
   border: 0;
   min-width: 937px;
+  min-height: 100vh;
+  position: fixed;
 }
 
 /*
