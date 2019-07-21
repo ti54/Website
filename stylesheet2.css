@@ -87,10 +87,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For IE10+/Edge */
-  -webkit-user-select: none; /* For Safari */
-  user-select: none; /* Standard */
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -161,10 +161,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For IE10+/Edge */
-  -webkit-user-select: none; /* For Safari */
-  user-select: none; /*  Standard */
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
