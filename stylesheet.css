@@ -1,7 +1,9 @@
 html, body {
   height: 100%;
   width: 100%;
-  position: absolute;
+  position: fixed;
+  overflow-x: auto;
+  overflow-y: auto;
   margin: 0;
   padding: 0;
   border: 0;
@@ -18,7 +20,6 @@ _________________________________________________________________________
 
 .kontti{
   position:relative;
-  overflow: auto;
   min-height: 1400px;
   width:100%;
   height: 100%;
