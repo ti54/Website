@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang='fi'>
+  <head>
+  <meta charset="UTF-8">
+  <link type="text/css" rel="stylesheet"  href="stylesheet3.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Ota yhteyttä - Timo Uimonen</title>
+  <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  <meta name="description" content="Lähetä viesti. Täytä alla oleva lomake, jos haluat kysyä jotain, antaa palautetta tai vain moikata.">
+  <script>
+           function lahetaPostia(href)
+           {
+               var vastaanottaja = "timo.uimonendev";
+               vastaanottaja += "@gmail.com";
+               var uri = "mailto:";
+               uri += encodeURIComponent(vastaanottaja);
+               window.location.href = uri;
+           };
+  </script>
+</head>
+ <body>
+   <!-- Main Container -->
+   <div class="kontti">
+     <div id="topContainer">
+
+       <!-- Top bar -->
+
+       <div id="topBar">
+         <div id="langBar">
+           <table id="vasenTaulukko">
+             <tbody>
+               <tr class="kieli">
+                 <td>Kieli:</td>
+                 <td><a href="otaYhteytta"> <div class="ikonit"> FI </div></a>
+                 <td><a href="contactMe"> <div class="ikonit"> EN </div></a>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       <div id="contactBar">
+           <table id="oikeaTaulukko">
+             <tbody>
+               <tr>
+                 <td>Ota yhteyttä:</td>
+                 <noscript>Tämän sivuston toiminnot käyttävät JavaScriptiä.<br>Ole hyvä ja salli selaimesi JavaScript-komentosarjat.</noscript>
+                 <td>
+                   <a href="javascript:(function()%7BlahetaPostia()%3B%7D)()%3B"><div id="epost">@</div></a>
+                 </td>
+                 <td>
+                   <a href="https://www.linkedin.com/in/timouimonen"> <div class="ikonit"> in </div></a>
+                 </td>
+               </tr>
+             </tbody>
+           </table>
+         </div>
+       </div>
+
+       <!-- Main header -->
+
+       <div class="header">
+           <span><h1 class="main">T&#8202;i&#8202;m&#8202;o&nbsp;&nbsp;U&#8202;i&#8202;m&#8202;o&#8202;n&#8202;e&#8202;n</h1></span>
+       </div>
+
+       <!-- Navigation bar-->
+
+       <div id="navBar">
+
+         <ul id="navList">
+             <li ><a class="navikointi" href="Etusivu">Etusivu</a></li>
+             <li><a class="navikointi" href="CV">CV</a></li>
+             <li class="alleviivaa">Ota yhteyttä</li>
+         </ul>
+       </div>
+     </div>
+
+     <!-- Main content-->
+
+     <div id="achtung">
+      <p>Huom! Apple Safari-selain ei ole tuettu.<Br>Tiedonsiiro on toteutettu formspree-projektin avulla.</p>
+     </div>
+
+     <div id="lomake">
+       <div>
+         <h1 class="Otsikko">Lähetä viesti</h1>
+         <br>
+         <p id="paraFi">Täytä alla oleva lomake, jos haluat kysyä jotain, antaa palautetta tai vain moikata.</p>
+         <br>
+         <br>
+       </div>
+       <form class="contactForm" method="POST" name="contact_form" action="////formspree.io/&#x74;&#105;&#109;&#x6f;&#46;&#117;&#105;&#109;&#111;&#110;&#101;&#x6e;&#x64;&#x65;&#x76;&#64;&#103;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#x63;&#x6f;&#x6d;">
+         <section>
+           <div class="group">
+             <input type="text" required="required" name="name">
+             <span class="korostus"></span>
+             <span class="palkki"></span>
+             <label>Nimi </label>
+           </div>
+
+           <div class="group">
+             <input type="email" required="required" name="_replyto">
+             <span class="korostus"></span>
+             <span class="palkki"></span>
+             <label>Sähköposti</label>
+           </div>
+
+           <div class="nimikkeet">
+             <label>Viesti</label>
+           </div>
+           <br>
+           <div class="group">
+             <textarea name="Message"  cols="50" rows="12" ></textarea>
+           </div>
+           <br><br>
+           <input type="text" name="_gotcha" style="display:none" />
+           <button type="submit" value="Send"> Lähetä <span><i class="fa fa-chevron-right"></i></span> </button>
+         </section>
+      </form>
+     </div>
+  </div>
+
+  <!-- Footer -->
+
+  <div id="footer">
+    <p id="oikeudet">&copy; 2017-2019 Timo Uimonen <br> Sivuston koodi on käytettävissä MIT-lisensillä</p>
+  </div>
+</body>
+</html>
