@@ -5,7 +5,6 @@ html, body {
   padding: 0;
   border: 0;
   min-width: 937px;
-
 }
 
 /*
@@ -89,10 +88,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For IE10+/Edge */
-  -webkit-user-select: none; /* For Safari */
-  user-select: none; /* Standard */
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -162,10 +161,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; /* For Firefox */
-  -ms-user-select: none; /* For IE10+/Edge */
-  -webkit-user-select: none; /* For Safari */
-  user-select: none; /*  Standard */
+  -moz-user-select: none; 
+  -ms-user-select: none; 
+  -webkit-user-select: none; 
+  user-select: none; 
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -304,6 +303,7 @@ _________________________________________________________________________
 #achtung br{
   line-height: 25px;
 }
+
 /* the form */
 
 #lomake{
@@ -374,16 +374,11 @@ label{
   transition:0.2s ease all;
 }
 
-/* aktiivinen tila */
 input:focus ~ label, input:valid ~ label 		{
   color:#191919;
   top:-20px;
   font-size:17px;
 }
-
-/* ----- alapalkit ---- */
-
-/* Animaation pituus*/
 
 .palkki 	{
   width:315px;
@@ -413,7 +408,7 @@ input:focus ~ label, input:valid ~ label 		{
   right:50%;
 }
 
-/* aktiivinen tila */
+
 input:focus ~ .palkki:before, input:focus ~ .palkki:after {
   width:50%;
 }
@@ -425,7 +420,7 @@ input:focus ~ .palkki:before, input:focus ~ .palkki:after {
   width:100px;
   left:0;
   pointer-events:none;
-  opacity:0; /* Muuttaa clickaus varjouseffektia */
+  opacity:0; 
 }
 
 input:focus ~ .korostus {
@@ -435,7 +430,6 @@ input:focus ~ .korostus {
   -ms-animation:inputHighlighter 0.3s ease;
 }
 
-/* animaatiot  */
 
 @-moz-keyframes inputHighlighter {
 	from { background:#5264AE; }
@@ -496,8 +490,6 @@ button {
     font-size: 20px;
     text-align: center;
    }
-
- /* Napin laajentuminen */
 
 button  span{
   max-width: 0;
