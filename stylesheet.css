@@ -88,10 +88,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
   -webkit-user-select: none; /
-  user-select: none; 
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -140,7 +140,6 @@ body a{
   line-height: 15px;
   border: 40px;
   color: #e5e5e5;
-
 }
 
 #oikeaTaulukko {
@@ -162,15 +161,14 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
   -ms-transition:transform .15s ease-in-out;
-
 }
 
 #epost:hover {
@@ -237,9 +235,8 @@ _________________________________________________________________________
   font-size: 150%;
   text-align: center;
   color: #e5e5e5;
-
-
 }
+
 #navList li {
   display:inline;
   text-align: center;
@@ -247,7 +244,6 @@ _________________________________________________________________________
   font-family: 'Open Sans', sans-serif;
   font-weight: 200;
  }
-
 
 #navList a {
   text-decoration: none;
@@ -260,6 +256,7 @@ ul {
   padding:0;
   margin: 0;
 }
+
 .navikointi:after {
   content: '';
   display: block;
@@ -267,8 +264,8 @@ ul {
   width: 0%;
   border-bottom: 2px solid ;
   transition: width .2s ease, background-color .5s ease;
-
 }
+
 .navikointi:hover:after {
   width: 100%;
 }
@@ -299,7 +296,6 @@ _________________________________________________________________________
 }
 
 #left {
-
   height:250px;
   font-family: 'Open Sans', sans-serif;
   width: 300px;
@@ -315,7 +311,7 @@ _________________________________________________________________________
 #right {
   height:250px;
   font-family: 'Open Sans', sans-serif;
-  width: 390px;
+  width: 430px;
   color:black;
   background-color:white;
   font-size:18px;
@@ -327,7 +323,7 @@ _________________________________________________________________________
 #rightFI {
   height:250px;
   font-family: 'Open Sans', sans-serif;
-  width: 360px;
+  width: 400px;
   color:black;
   background-color:white;
   font-size:18px;

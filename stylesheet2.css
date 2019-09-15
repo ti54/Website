@@ -87,10 +87,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -139,7 +139,6 @@ body a{
   line-height: 15px;
   border: 40px;
   color: #e5e5e5;
-
 }
 
 #oikeaTaulukko {
@@ -161,15 +160,14 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
   -ms-transition:transform .15s ease-in-out;
-
 }
 
 #epost:hover {
@@ -264,8 +262,8 @@ ul {
   width: 0%;
   border-bottom: 2px solid ;
   transition: width .2s ease, background-color .5s ease;
-
 }
+
 .navikointi:hover:after {
   width: 100%;
 }
@@ -382,8 +380,9 @@ _________________________________________________________________________
 }
 
 h1.otsikko {
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 49px;
+  margin-bottom: 30px;
 }
 
 h2,h4 {
