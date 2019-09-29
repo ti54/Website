@@ -52,7 +52,6 @@ body a{
   display: flex;
   justify-content: center;
   text-align: center;
-
 }
 
 /* For language bar */
@@ -65,16 +64,16 @@ body a{
   border: 2px;
   color: #e5e5e5;
   min-width: 500px;
-
 }
+
 #vasenTaulukko {
   font-family: 'Open Sans', sans-serif;
   border-spacing: 10px;
   margin-left: 70px;
   text-align: center;
   padding-top: 3px;
-
 }
+
 .ikonit {
   width: 30px;
   height: 30px;
@@ -95,8 +94,8 @@ body a{
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
   -ms-transition:transform .15s ease-in-out;
-
 }
+
 .ikonit:hover{
   color: #000000;
   background-color: #fff;
@@ -351,6 +350,7 @@ _________________________________________________________________________
 .taulukko {
  margin: 0px;
  width: 100%;
+ border-spacing: 2px 4px;
 }
 
 .taulukko tr{
@@ -388,8 +388,6 @@ h1.otsikko {
 h2,h4 {
   font-weight: normal;
 }
-
-
 
 .nimet {
   margin-top: 1.3em;
