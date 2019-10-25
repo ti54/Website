@@ -408,7 +408,7 @@ h2,h4 {
 #WT1 {
   font-weight: normal;
   font-size: 19.5px;
-  padding-left: 380px;
+  padding-left: 377px;
 }
 
 #WT11 {
@@ -429,10 +429,28 @@ h2,h4 {
   padding-left: 276px;
 }
 
+#WT21s{
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 258px;
+}
+
 #WT211 {
   font-weight: normal;
   font-size: 19.5px;
   padding-left: 384px;
+}
+
+#WT211s{
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 404px;
+}
+
+#WT211ss{
+  font-weight: normal;
+  font-size: 19.5px;
+  padding-left: 407px;
 }
 
 #WT211Suomi {
