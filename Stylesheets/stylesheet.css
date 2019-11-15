@@ -53,7 +53,6 @@ body a{
   display: flex;
   justify-content: center;
   text-align: center;
-
 }
 
 /* For language bar */
@@ -66,16 +65,16 @@ body a{
   border: 2px;
   color: #e5e5e5;
   min-width: 500px;
-
 }
+
 #vasenTaulukko {
   font-family: 'Open Sans', sans-serif;
   border-spacing: 10px;
   margin-left: 70px;
   text-align: center;
   padding-top: 3px;
-
 }
+
 .ikonit {
   width: 30px;
   height: 30px;
@@ -207,7 +206,6 @@ _________________________________________________________________________
   text-align: center;
   font-size: 360%;
   color: #e5e5e5;
-
 }
 
 .main {

@@ -88,10 +88,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -161,10 +161,10 @@ body a{
   text-align: center;
   vertical-align: middle;
   text-decoration: none;
-  -moz-user-select: none; 
-  -ms-user-select: none; 
-  -webkit-user-select: none; 
-  user-select: none; 
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
 
   -moz-transition:transform .15s ease-in-out;
   -webkit-transition: transform .15s ease-in-out;
@@ -408,7 +408,6 @@ input:focus ~ label, input:valid ~ label 		{
   right:50%;
 }
 
-
 input:focus ~ .palkki:before, input:focus ~ .palkki:after {
   width:50%;
 }
@@ -420,7 +419,7 @@ input:focus ~ .palkki:before, input:focus ~ .palkki:after {
   width:100px;
   left:0;
   pointer-events:none;
-  opacity:0; 
+  opacity:0;
 }
 
 input:focus ~ .korostus {
@@ -429,7 +428,6 @@ input:focus ~ .korostus {
   -webkit-animation:inputHighlighter 0.3s ease;
   -ms-animation:inputHighlighter 0.3s ease;
 }
-
 
 @-moz-keyframes inputHighlighter {
 	from { background:#5264AE; }
@@ -491,7 +489,7 @@ button {
     text-align: center;
    }
 
-button  span{
+button span{
   max-width: 0;
   display: inline-block;
   vertical-align: top;
@@ -512,7 +510,6 @@ button:hover {
 button:hover span {
     max-width: 7rem;
   }
-
 
 
 /*
