@@ -15,7 +15,7 @@ _________________________________________________________________________
 
 /* For the main container */
 
-.kontti{
+.kontti {
   position:relative;
   overflow: auto;
   min-height: 1350px;
@@ -26,7 +26,7 @@ _________________________________________________________________________
 
 /* For the top container */
 
-#topContainer{
+#topContainer {
   background-color: #191919;
 }
 
@@ -36,11 +36,11 @@ _________________________________________________________________________
 _________________________________________________________________________
 */
 
-body a{
+body a {
   text-decoration: none;
 }
 
-#topBar{
+#topBar {
   background-color:#191919;
   height: 50px;
   width: 100%;
@@ -98,7 +98,7 @@ body a{
   -ms-transition:transform .15s ease-in-out;
 }
 
-.ikonit:hover{
+.ikonit:hover {
   color: #000000;
   background-color: #fff;
   text-decoration: none;
@@ -189,7 +189,7 @@ body a{
 
 /*
 _________________________________________________________________________
------------------------------- Otsikko ------------------------------
+------------------------------ Otsikko ----------------------------------
 _________________________________________________________________________
 */
 
@@ -227,7 +227,7 @@ _________________________________________________________________________
 _________________________________________________________________________
 */
 
-#navBar{
+#navBar {
   height: 48px;
   width: 100%;
   background-color:#191919;
@@ -277,20 +277,20 @@ ul {
 
 /*
 _________________________________________________________________________
---------------------------- Sisältö ----------------------------
+--------------------------- Sisältö -------------------------------------
 _________________________________________________________________________
 */
 
 /* browser remark */
 
-#achtung{
+#achtung {
   font-family: 'Open Sans', sans-serif;
   font-size: 11px;
   height: 60px;
   text-align: right;
 }
 
-#achtung p{
+#achtung p {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
   border: 0;
@@ -300,13 +300,13 @@ _________________________________________________________________________
   margin-left: 70%;
 }
 
-#achtung br{
+#achtung br {
   line-height: 25px;
 }
 
 /* the form */
 
-#lomake{
+#lomake {
   background:#FFF;
   font-family: 'Open Sans', sans-serif;
   display:block;
@@ -316,7 +316,7 @@ _________________________________________________________________________
   margin:30px auto 0;
 }
 
-h2{
+h2 {
   text-align:center;
   margin-bottom:50px;
 }
@@ -341,12 +341,12 @@ h1.Otsikko {
 
 /* styling of the form  */
 
-.group{
+.group {
   position:relative;
   margin-bottom:45px;
 }
 
-input{
+input {
   display:block;
   font-size:18px;
   padding:10px 10px 10px 5px;
@@ -355,11 +355,11 @@ input{
   border-bottom:1px solid #757575;
 }
 
-input:focus{
+input:focus {
   outline:none;
 }
 
-label{
+label {
   color:#999;
   position:absolute;
   left:5px;
@@ -374,19 +374,19 @@ label{
   transition:0.2s ease all;
 }
 
-input:focus ~ label, input:valid ~ label 		{
+input:focus ~ label, input:valid ~ label {
   color:#191919;
   top:-20px;
   font-size:17px;
 }
 
-.palkki 	{
+.palkki {
   width:315px;
   position:relative;
   display:block;
   }
 
-.palkki:before, .palkki:after 	{
+.palkki:before, .palkki:after {
   content:'';
   background: #191919;
   height:2px;
@@ -489,7 +489,7 @@ button {
     text-align: center;
    }
 
-button span{
+button span {
   max-width: 0;
   display: inline-block;
   vertical-align: top;
@@ -511,14 +511,13 @@ button:hover span {
     max-width: 7rem;
   }
 
-
 /*
 _________________________________________________________________________
 ------------------------------ Alatunniste ------------------------------
 _________________________________________________________________________
 */
 
-#footer{
+#footer {
   background-color: #e3e6e9;
   height: 75px;
   width: 100%;
