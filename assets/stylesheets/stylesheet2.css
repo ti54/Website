@@ -16,7 +16,15 @@ _________________________________________________________________________
 
 .kontti {
   position:relative;
-  min-height: 3250px;
+  min-height: 3500px;
+  width:100%;
+  height: 100%;
+  background-color:#ffffff;
+}
+
+.konttiSe {
+  position:relative;
+  min-height: 3150px;
   width:100%;
   height: 100%;
   background-color:#ffffff;
