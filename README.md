@@ -6,5 +6,5 @@ This repository contains all the files used in the website. The structure is sim
   * Images
   * Scripts
   * Stylesheets
-* html files for Finnish version
-* html files for Swedish version
+* A folder for html files for Finnish version
+* A folder for html files for Swedish version
