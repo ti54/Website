@@ -2,7 +2,7 @@
 
 This repository contains all the files used in the website. The structure is simple and goes as follows:
 * Files for main English language version
-* Assets folder
+* An Assets folder
   * Images
   * Scripts
   * Stylesheets
