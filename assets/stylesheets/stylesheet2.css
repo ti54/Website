@@ -16,18 +16,14 @@ _________________________________________________________________________
 
 .kontti {
   position:relative;
-  min-height: 3500px;
+  min-height: 3400px;
   width:100%;
   height: 100%;
   background-color:#ffffff;
 }
 
 .konttiSv {
-  position:relative;
   min-height: 3150px;
-  width:100%;
-  height: 100%;
-  background-color:#ffffff;
 }
 
 /* For the container for the top */
@@ -294,7 +290,6 @@ _________________________________________________________________________
   width: 96%;
   top:0px;
   vertical-align:middle;
-  display: flex;
   justify-content: center;
   background-color:white;
   color: black;
@@ -305,52 +300,112 @@ _________________________________________________________________________
   font-size:18px;
 }
 
-#middleSuomi {
-  height:2795px;
-  width: 96%;
-  top:0px;
-  vertical-align:middle;
-  display: flex;
-  justify-content: center;
-  background-color:white;
-  color: black;
-  text-align: middle;
-  position: relative;
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 45px;
-  font-size:18px;
-}
-
-/* Left side of the main div */
-
-#left {
-  height:300px;
-  font-family: 'Open Sans', sans-serif;
+[class*="section-"] {
   width: 88%;
   color:black;
   background-color:white;
   font-size:18px;
   text-align: left;
   vertical-align: middle;
-  border: : 46px;
+  border: 46px;
+  margin-left: 110px;
+  padding-bottom: 10px;
+  vertical-align:middle;
+  display: flex;
 }
 
-/* Descriptions */
+.section-1 {
+  height:167px;
+}
 
-.description {
+.section-2 {
+  height:190px;
+}
+
+.section-3 {
+  height:240px;
+}
+
+.section-4 {
+  height:310px;
+}
+
+.section-4Fi {
+  height:330px;
+}
+
+.section-5 {
+  height:107px;
+}
+
+.section-6 {
+  height:133px;
+}
+
+.section-7 {
+  height:106px;
+}
+
+.section-8 {
+  display: block;
+}
+
+.sectionTitleFirst {
+  position: relative;
+  margin-left: 110px;
+  margin-top: 49px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.sectionTitle {
+  position: relative;
+  margin-left: 110px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 23px;
+}
+
+.sectionBreak {
+  height:10px;
+  width: 88%;
+  margin-left: 110px;
+  padding-bottom: 10px;
+  padding-top: 22.41px;
+}
+
+/* Style inside the sections */
+
+.vasen {
+  height:100%;
+  min-width: 40%;
+  max-width: 800px;
+  width: 740px;
   text-align: left;
-  width: 565px;
-  margin-top: 0;
+  vertical-align: middle;
+  position: relative;
 }
 
-.description p {
-  margin-top: 0;
-}
-
-.description1 {
+.oikea {
+  height:100%;
+  min-width: 140px;
+  margin-top: 22.41px;
+  padding-left: 20px;
   text-align: left;
-  width: 555px;
-  margin-top: 0;
+  vertical-align: middle;
+  position: relative;
+}
+
+.titteli {
+  font-size: 19.5px;
+}
+
+.date {
+  font-size: 19.5px;
+}
+
+h2,h4 {
+  font-weight: normal;
 }
 
 /* Tables, spaces, and lines */
@@ -385,123 +440,6 @@ _________________________________________________________________________
   width: 100%;
   height: 1px;
   border: none;
-}
-
-h1.otsikko {
-  font-size: 45px;
-  margin-top: 49px;
-  margin-bottom: 30px;
-}
-
-h2,h4 {
-  font-weight: normal;
-}
-
-.nimet {
-  margin-top: 1.3em;
-  margin-bottom: -0.45em;
-}
-
-#nimetOther {
-  margin-bottom: 0.5em;
-}
-
-#WT0 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 391px;
-  margin-top: 1.2em;
-}
-
-#WT1 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 377px;
-}
-
-#WT11 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 462px;
-}
-
-#WT2 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 166px;
-}
-
-#WT21 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 276px;
-}
-
-#WT21s{
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 258px;
-}
-
-#WT211 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 384px;
-}
-
-#WT211s {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 404px;
-}
-
-#WT211ss {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 407px;
-}
-
-#WT211Suomi {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 419px;
-}
-
-#WT3 {
-  font-weight: normal;
-  font-size: 19.5px;
-  padding-left: 387px;
-}
-
-.space {
-line-height: 20px;
-}
-
-#space3 {
-padding-top: 23px;
-}
-
-#space2 {
-  line-height: 24px;
-}
-
-br {
-  line-height: 25px;
-}
-
-#date {
-  padding-top: 23px;
-}
-
-#Date {
-  padding-top: 10px;
-}
-#Date2 {
-  padding-top: 23px;
-}
-
-#date2 {
-  padding-top: 4px;
 }
 
 /*
