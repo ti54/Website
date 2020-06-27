@@ -1,4 +1,4 @@
-// Function to open a new email window with set receiver
+// Function to open a new email window with a set receiver
 function lahetaPostia(href)
 {
     let vastaanottaja = "timo.uimonendev";
